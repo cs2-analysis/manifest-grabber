@@ -1,0 +1,21 @@
+{
+  "name": "manifest-grabber",
+  "version": "1.0.0",
+  "description": "Simple tool to grab the manifest from steam",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "bin": {
+    "manifest-grabber": "./index.js"
+  },
+  "author": "nezu",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.9.0",
+    "@types/steam-user": "^5.0.3"
+  },
+  "dependencies": {
+    "steam-user": "^5.2.0"
+  }
+}
